@@ -1,0 +1,129 @@
+/* BODY */
+
+body {
+  background-color: #000;
+}
+
+/* CONTAINER */
+
+#container {
+  color: #666;
+  background-color: #333;
+}
+
+/* GENERAL MOJO AND MULA */
+
+h1 {
+  color: #cc6633;
+  background: #000 url(../img/header.gif) left center no-repeat;
+  text-indent: -3000px;
+  height: 35px;
+}
+
+h2, h3 {
+  color: #666;
+  background-color: #fff;
+}
+
+a {
+  color: #cc6714;
+}
+
+a:hover {
+  color: #cc6714;
+  background-color: #f5f5f5;
+}
+
+input, select {
+  color: #999;
+  background-color: #fff;
+  border-color: #ccc;
+}
+
+input:hover, input:focus {
+  color: #333;
+  border-color: #a6a6a6;
+}
+
+/* HEADER ELEMENTS */
+
+#header {
+  border-color: #948979;
+}
+
+/* the slogan */
+#header em {
+  color: #999;
+}
+
+/* NAVIGATION ELEMENTS */
+
+#navigation {
+  background-color: #000;
+  border-color: #948979;
+}
+
+#navigation a {
+  border-color: #ccc;
+}
+
+#navigation a:link, #navlist a:visited {
+  color: #cc6714;
+}
+
+#navigation a:hover {
+  color: #cc6714;
+  background: #f5f5f5 url(../img/arrow.gif) 96% 50% no-repeat;
+}
+
+/* THE SMALL BOX BELOW NAV */
+
+#navigation p {
+  border-color: #ccc;
+}
+
+/* CONTENT ELEMENTS */
+
+#content {
+  /* background-color: #fff; */
+}
+
+#content p {
+  border-color: #ddd; /* A faint grey line below the text */
+}
+
+/* SIDEBAR ELEMENTS */
+
+#sidebar {
+  background-color: #000;
+  border-color: #948979;
+  border-right-color: #ddd;
+}
+
+#sidebar p {
+  border-color: #ddd;
+}
+
+#sidebar h2 {
+  background-color: #fff;
+}
+
+/* FOOTER ELEMENTS */
+
+#footer {
+  background-color: #575352;
+}
+
+#footer p {
+  color: #ddd;
+}
+
+#footer p a {
+  color: #ddd;
+  border-color: #ddd;
+}
+
+#footer p a:hover {
+  color: #fff;
+  background-color: #333;
+}

@@ -1,0 +1,198 @@
+/* BODY */
+
+body {
+  margin: 0;
+}
+
+/* CONTAINER */
+
+#container {
+  font-family: 'Lucida Grande', Tahoma, Arial, Helvetica, sans-serif; /* Lucida Grande for the Macs, Tahoma for the PCs */
+  font-size: 11px;
+  line-height: 1.5em;
+}
+
+#container {
+	width: 768px;
+	margin: 0 auto;
+}
+
+body.fluid #container {
+  width: auto;
+  margin: 0 2%;
+}
+
+/* GENERAL MOJO AND MULA */
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 32px;
+  margin: 20px 0 10px 0;
+  padding-left: 10px;
+}
+
+h2, h3 {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 10px 0;
+  padding: .2em;
+}
+
+h2 {
+  border-bottom: 1px solid transparent;
+}
+
+h3 {
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  /* --- */
+}
+
+input, select {
+  border: 1px solid transparent;
+  font-size: 11px;
+  padding: 3px;
+}
+
+input:hover, input:focus {
+  border: 1px solid transparent;
+}
+
+.button {
+  padding: 2px;
+}
+
+.image-button, .image-button:hover, .image-button:focus {
+  background-color: inherit;
+  border: 0;
+  padding: 0;
+}
+
+/* HEADER ELEMENTS */
+
+#header {
+  position: relative;
+  border-bottom: 4px solid transparent;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* the slogan */
+#header em {
+  margin-left: 30px;
+}
+
+/* search form */
+#header form {
+  /*
+  position: absolute;
+  right: 0;
+  bottom: .2em;
+  */
+  text-align: right;
+  font-size: 9px;
+  width: 175px;
+  float: right;
+  z-index: 10;
+}
+
+#header form .text-field {
+  width: 136px;
+}
+
+/* NAVIGATION ELEMENTS */
+
+#navigation {
+  border: 1px solid transparent;
+  border-width: 1px 1px 1px 0;
+  border-radius: 0 10px 10px 0;
+  float: left;
+  width: 140px;
+}
+
+#navigation ul {
+  margin: 10px 0 10px 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+#navigation a {
+  display: block;
+  padding: 5px;
+  width: 130px;
+  border-bottom: 1px solid transparent;
+}
+
+#navigation a:link, #navlist a:visited {
+  text-decoration: none;
+}
+
+#navigation a:hover {
+  background: transparent url(../img/arrow.gif) 96% 50% no-repeat;
+}
+
+/* THE SMALL BOX BELOW NAV */
+
+#navigation p {
+  margin-top: 20px;
+  padding: 5px;
+  border: 1px dotted transparent;
+  border-width: 1px 0;
+}
+
+/* CONTENT ELEMENTS */
+
+#content {
+  margin: 0 10px 0 150px;
+  float: none;
+}
+
+#content p {
+  padding-bottom: 10px;
+  border-bottom: 1px solid transparent; /* A faint grey line below the text */
+}
+
+/* SIDEBAR ELEMENTS */
+
+#sidebar {
+  border: 1px solid transparent;
+  border-width: 1px 0 1px 1px;
+  border-radius: 10px 0 0 10px;
+  margin: -10px -10px 10px 10px;
+  float: right;
+  width: 175px;
+  z-index: 10;
+}
+
+#sidebar p {
+  padding: 0 5px 5px 5px;
+  border-bottom: 1px solid transparent;
+}
+
+#sidebar h2 {
+  margin-top: 9px;
+}
+
+/* FOOTER ELEMENTS */
+
+#footer {
+  margin-top: 20px;
+  padding: 0px 5px;
+}
+
+#footer p {
+  padding: 5px;
+}
+
+#footer p a {
+  border-bottom: 1px dotted transparent;
+}
+
+/* And they lived happily ever after. The End. */

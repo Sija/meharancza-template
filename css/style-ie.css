@@ -1,0 +1,34 @@
+/* CONTAINER */
+
+body.fluid #container {
+  zoom: 1;
+}
+
+/* HEADER ELEMENTS */
+
+#header {
+  padding-bottom: 10px;
+}
+
+/* CONTENT ELEMENTS */
+
+#content {
+  zoom: 1;
+}
+
+/* SIDEBAR ELEMENTS */
+
+#sidebar {
+  position: relative;
+  margin-top: 0;
+}
+
+body.fluid #sidebar {
+  position: relative;
+}
+
+/* FOOTER ELEMENTS */
+
+#footer {
+  zoom: 1;
+}
